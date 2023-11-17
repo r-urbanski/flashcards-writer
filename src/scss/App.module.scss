@@ -1,0 +1,73 @@
+@import './variables';
+
+.card {
+   width: 50%;
+   margin: 0 auto;
+   background-color: rgba($bg-color, 0.7);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+
+   h1 { font-size: 2rem; }
+   
+   input {
+      border: 3px solid;
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      outline: none;
+
+      &.normal { border-color: $primary; }
+      &.success { border-color: $success; }
+      &.error { border-color: $error; }
+   }
+
+   button {
+      border: 3px solid $primary;
+      border-radius: 10px;
+      padding: 0.3rem 2rem;
+      font-size: 1.5rem;
+      background-color: $primary;
+      color: $white;
+      cursor: pointer;
+      transition: .15s opacity ease-in-out;
+
+      &:hover {
+         opacity: 0.75;
+      }
+
+      &:active {
+         scale: 0.97;
+      }
+   }
+
+   ol {
+      list-style-position: inside;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      cursor: pointer;
+
+      small {
+         margin: 0 auto;
+      }
+
+      li {
+         flex-basis: 25%;
+         text-align: center;
+         color: $white;
+         transition: .1s color ease-out;
+         font-size: 1.4rem;
+
+         &:hover {
+            color: $primary;
+         }
+
+         &::marker {
+            color: $white;
+         }
+      }
+   }
+}

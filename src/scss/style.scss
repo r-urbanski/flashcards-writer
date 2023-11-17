@@ -1,0 +1,33 @@
+@import './variables';
+
+@font-face {
+   font-family: Poppins;
+   src: url(../fonts/Poppins-Regular.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Poppins;
+}
+
+html {
+   font-size: 16px;
+   color: $white;
+}
+
+body {
+   padding: 2rem;
+   background-color: $bg-color;
+}
+
+a {
+   color: $white;
+   cursor: pointer;
+   transition: .1s color ease-out;
+
+   &:hover {
+      color: $primary;
+   }
+}
