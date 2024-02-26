@@ -1,82 +1,110 @@
 [
-   { 
-      "original": "brązowy medal", 
-      "translation": "die Bronzemedaille"
-   },
-   { 
-      "original": "srebrny medal", 
-      "translation": "die Silbermedaille" 
-   },
-   { 
-      "original": "złoty medal", 
-      "translation": "die Goldmedaille" 
-   },
-   { 
-      "original": "drużyna", 
-      "translation": "die Mannschaft" 
-   },
-   { 
-      "original": "trener", 
-      "translation": "der Trainer" 
-   },
-   { 
-      "original": "igrzyska olimpijske", 
-      "translation": "die Olympischen Spiele" 
-   },
-   { 
-      "original": "paraolimpiada", 
-      "translation": "die Paralympics" 
-   },
-   { 
-      "original": "zawody szkolne", 
-      "translation": "der Schulwettkampf" 
-   },
-   { 
-      "original": "dyscyplina sportowa", 
-      "translation": "die Sportart" 
-   },
-   { 
-      "original": "impreza sportowa", 
-      "translation": "die Sportveranstaltung" 
-   },
-   { 
-      "original": "turniej", 
-      "translation": "das Turnier" 
-   },
-   { 
-      "original": "konkurs, zawody", 
-      "translation": "der Wettbewerb" 
-   },
-   { 
-      "original": "mistrzostwa świata", 
-      "translation": "die Weltmeisterschaft" 
-   },
-   { 
-      "original": "zajmować pierwsze miejsce", 
-      "translation": "den ersten Platz belegen" 
-   },
-   { 
-      "original": "ustanawiać rekord", 
-      "translation": "den Rekord aufstellen" 
-   },
-   { 
-      "original": "zdobywać mistrzostwo świata", 
-      "translation": "den Weltmeistertitel gewinnen" 
-   },
-   { 
-      "original": "odbywać się", 
-      "translation": "stattfinden" 
-   },
-   { 
-      "original": "brać udział (w)", 
-      "translation": "teilnehmen an" 
-   },
-   { 
-      "original": "marzyć o", 
-      "translation": "träumen von" 
-   },
-   { 
-      "original": "przygotowywać na / do", 
-      "translation": "vorbereiten auf" 
-   }
+    {
+        "original": "w okienku bankowym",
+        "translation": "am Bankschalter"
+    },
+    {
+        "original": "w / przy bankomacie",
+        "translation": "am Geldautomaten"
+    },
+    {
+        "original": "podpisywać wniosek",
+        "translation": "den Antrag unterschreiben"
+    },
+    {
+        "original": "okazywać dokument tożsamości",
+        "translation": "den Ausweis vorzeigen"
+    },
+    {
+        "original": "wybierać kwotę",
+        "translation": "den Betrag wählen"
+    },
+    {
+        "original": "wprowadzać numer PIN",
+        "translation": "die PIN-Nummer eingeben"
+    },
+    {
+        "original": "wypełniać formularz",
+        "translation": "ein Formular ausfüllen"
+    },
+    {
+        "original": "otwierać konto",
+        "translation": "ein Konto eröffnen"
+    },
+    {
+        "original": "wystawiać kartę bankową",
+        "translation": "eine Bankkarte ausstellen"
+    },
+    {
+        "original": "brać kredyt",
+        "translation": "einen Kredit aufnehmen"
+    },
+    {
+        "original": "podejmować pieniądze",
+        "translation": "Geld abheben"
+    },
+    {
+        "original": "wpłacać pieniądze",
+        "translation": "Geld einzahlen"
+    },
+    {
+        "original": "przelewać pieniądze",
+        "translation": "Geld überweisen"
+    },
+    {
+        "original": "karta do konta ROR",
+        "translation": "die Girokarte"
+    },
+    {
+        "original": "konto",
+        "translation": "das Konto"
+    },
+    {
+        "original": "opłacać rachunki",
+        "translation": "Rechnungen bezahlen"
+    },
+    {
+        "original": "nadawca",
+        "translation": "der Absender"
+    },
+    {
+        "original": "stać przy okienku",
+        "translation": "am Schalter stehen"
+    },
+    {
+        "original": "odbierać list polecony",
+        "translation": "das Einschreiben abholen"
+    },
+    {
+        "original": "opłacać rachunek",
+        "translation": "die Rechnung bezahlen"
+    },
+    {
+        "original": "nadawać paczkę",
+        "translation": "ein Paket aufgeben"
+    },
+    {
+        "original": "naklejać znaczek pocztowy",
+        "translation": "eine Briefmarke aufkleben"
+    },
+    {
+        "original": "wypełniać druk nadania paczki",
+        "translation": "eine Paketkarte ausfüllen"
+    },
+    {
+        "original": "wysyłać list",
+        "translation": "einen Brief schicken"
+    },
+    {
+        "original": "kupować kopertę",
+        "translation": "einen Briefumschlag kaufen"
+    },
+    {
+        "original": "odbiorca",
+        "translation": "der Empfänger"
+    },
+    {
+        "original": "wrzucać do szkrzybki na listy",
+        "translation": "in den Briefkasten einwerfen"
+    }
 ]
