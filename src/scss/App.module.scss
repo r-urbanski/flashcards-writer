@@ -100,3 +100,10 @@
         }
     }
 }
+
+button.change {
+    font-size: 0.9rem !important;
+    padding: 5px 10px;
+    background-color: mix(#000, $success, 50%);
+    border-color: mix(#000, $success, 50%);
+}

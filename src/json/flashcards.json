@@ -1,110 +1,74 @@
 [
     {
-        "original": "w okienku bankowym",
-        "translation": "am Bankschalter"
+        "translation": "Ich verstehe das nicht",
+        "original": "Nie rozumiem tego"
     },
     {
-        "original": "w / przy bankomacie",
-        "translation": "am Geldautomaten"
+        "translation": "Sprich bitte langsamer",
+        "original": "Mów wolniej, proszę"
     },
     {
-        "original": "podpisywać wniosek",
-        "translation": "den Antrag unterschreiben"
+        "translation": "Wiederholen Sie das bitte",
+        "original": "Niech pan/pani (to) powtórzy"
     },
     {
-        "original": "okazywać dokument tożsamości",
-        "translation": "den Ausweis vorzeigen"
+        "translation": "Noch einmal, bitte",
+        "original": "Jeszcze raz, poproszę"
     },
     {
-        "original": "wybierać kwotę",
-        "translation": "den Betrag wählen"
+        "translation": "Was fehlt Ihnen?",
+        "original": "Co pani/panu dolega?"
     },
     {
-        "original": "wprowadzać numer PIN",
-        "translation": "die PIN-Nummer eingeben"
+        "translation": "Meine Beine tun mir weh",
+        "original": "Bolą mnie nogi"
     },
     {
-        "original": "wypełniać formularz",
-        "translation": "ein Formular ausfüllen"
+        "translation": "Wie kann ich Ihnen helfen?",
+        "original": "Jak mogę pani/panu/państwu pomóc?"
     },
     {
-        "original": "otwierać konto",
-        "translation": "ein Konto eröffnen"
+        "translation": "Gute Idee",
+        "original": "Dobry pomysł"
     },
     {
-        "original": "wystawiać kartę bankową",
-        "translation": "eine Bankkarte ausstellen"
+        "translation": "Alles Gute im neuen Jahr",
+        "original": "Wszystkiego dobrego w nowym roku"
     },
     {
-        "original": "brać kredyt",
-        "translation": "einen Kredit aufnehmen"
+        "translation": "Alles Gute",
+        "original": "Wszystkiego dobrego"
     },
     {
-        "original": "podejmować pieniądze",
-        "translation": "Geld abheben"
+        "translation": "Glückwunsch",
+        "original": "Gratulacje"
     },
     {
-        "original": "wpłacać pieniądze",
-        "translation": "Geld einzahlen"
+        "translation": "Danke für deine Hilfe",
+        "original": "Dziękuję za twoją pomoc"
     },
     {
-        "original": "przelewać pieniądze",
-        "translation": "Geld überweisen"
+        "translation": "Ganz meinerseits",
+        "original": "Cała przyjemność po mojej stronie"
     },
     {
-        "original": "karta do konta ROR",
-        "translation": "die Girokarte"
+        "translation": "Entschuldigung",
+        "original": "Przepraszam"
     },
     {
-        "original": "konto",
-        "translation": "das Konto"
+        "translation": "Mein Beileid",
+        "original": "Wyrazy współczucia"
     },
     {
-        "original": "opłacać rachunki",
-        "translation": "Rechnungen bezahlen"
+        "translation": "Kopf hoch",
+        "original": "Głowa do góry"
     },
     {
-        "original": "nadawca",
-        "translation": "der Absender"
+        "translation": "Danke für den Anruf",
+        "original": "Dziękuję za telefon"
     },
     {
-        "original": "stać przy okienku",
-        "translation": "am Schalter stehen"
-    },
-    {
-        "original": "odbierać list polecony",
-        "translation": "das Einschreiben abholen"
-    },
-    {
-        "original": "opłacać rachunek",
-        "translation": "die Rechnung bezahlen"
-    },
-    {
-        "original": "nadawać paczkę",
-        "translation": "ein Paket aufgeben"
-    },
-    {
-        "original": "naklejać znaczek pocztowy",
-        "translation": "eine Briefmarke aufkleben"
-    },
-    {
-        "original": "wypełniać druk nadania paczki",
-        "translation": "eine Paketkarte ausfüllen"
-    },
-    {
-        "original": "wysyłać list",
-        "translation": "einen Brief schicken"
-    },
-    {
-        "original": "kupować kopertę",
-        "translation": "einen Briefumschlag kaufen"
-    },
-    {
-        "original": "odbiorca",
-        "translation": "der Empfänger"
-    },
-    {
-        "original": "wrzucać do szkrzybki na listy",
-        "translation": "in den Briefkasten einwerfen"
+        "translation": "Das ist alles",
+        "original": "To wszystko"
     }
 ]

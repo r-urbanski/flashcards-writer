@@ -1,10 +1,12 @@
 import styles from './scss/App.module.scss'
-
 import jsonCards from './json/flashcards.json'
+import jsonCardsReverse from './json/flashcards-reverse.json'
+
 import { useEffect, useState, useRef } from 'react'
 
 export default function App() {
     const [userInput, setUserInput] = useState('')
+    const [germanToPol, setGermanToPol] = useState(false)
 
     const [remainingWords, setRemainingWords] = useState(jsonCards)
 
@@ -22,6 +24,16 @@ export default function App() {
         return [htmlElRef, setFocus]
     }
 
+    const changeLang = () => {
+        if (germanToPol) {
+            setGermanToPol(false)
+            setRemainingWords(jsonCards)
+        } else if (!germanToPol) {
+            setGermanToPol(true)
+            setRemainingWords(jsonCardsReverse)
+        }
+    }
+
     const [inputRef, setInputFocus] = useFocus()
 
     useEffect(() => {
@@ -33,9 +45,10 @@ export default function App() {
         })
 
         setRemainingWords(cardsIdArray)
-    }, [])
+    }, [germanToPol])
 
     useEffect(() => {
+        console.log(remainingWords)
         if (remainingWords.length === 0) {
             setCard({ id: 0, original: 'Gratulacje' })
             setUserInput('Ukończyłeś wszystkie fiszki!')
@@ -100,8 +113,12 @@ export default function App() {
             />
             <a onClick={() => showTranslation(card.translation, translation)}>{translation}</a>
             <ol>
-                {germanLetters.map(letter => {
-                    return <li onClick={() => handleLetter(letter)}>{letter}</li>
+                {germanLetters.map((letter, index) => {
+                    return (
+                        <li key={index} onClick={() => handleLetter(letter)}>
+                            {letter}
+                        </li>
+                    )
                 })}
                 <small>Numpad or Click</small>
             </ol>
@@ -109,8 +126,11 @@ export default function App() {
                 Sprawdź
             </button>
             <footer>fishki 🐟</footer>
-            <h1>Referat o rybach</h1>
-            <p>
+            <button className={styles.change} type='button' onClick={changeLang}>
+                {germanToPol ? 'Niemiecki > Polski' : 'Polski > Niemiecki'}
+            </button>
+            {/* <h1>Referat o rybach</h1> */}
+            {/*<p>
                 Karp, jako gatunek, powstał na drodze naturalnej poliploidyzacji na przełomie trzeciorzędu i czwartorzędu w okolicach Morza Kaspijskiego i
                 wschodniej Anatolii[4]. Forma dzika (sazan[3]) występowała pierwotnie w Europie południowo-wschodniej i Azji zachodniej w zlewiskach mórz
                 Egejskiego, Czarnego, Kaspijskiego i Aralskiego. Najwcześniej karp został udomowiony w Chinach (V w p.n.e.). Już z roku 350 p.n.e. pochodzą
@@ -118,6 +138,7 @@ export default function App() {
                 Naturalnej. W Europie była to pierwsza ryba hodowana w sztucznych stawach, zakładanych przy klasztorach. Od VII do XII wieku nastąpił szybki
                 rozwój rybactwa w majątkach klasztornych Belgii, Francji, Niemiec i na Bałkanach. Jest jedną z najważniejszych ryb hodowlanych.
             </p>
+            */}
         </main>
     )
 }
